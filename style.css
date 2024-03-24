@@ -1,0 +1,107 @@
+:root {
+    --cor-primaria: #0367A6; /* Turquesa neon */
+    --cor-secundaria: #012840; /* Rosa vibrante */
+    --cor-destaque: #1b3669; /* Laranja neon */
+    --cor-fundo: black; /* Preto escuro */
+    --cor-texto: #ffffff; /* Branco */
+    --cor-cyber: #fcee0a;
+  }
+  
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Share Tech Mono", monospace;
+    background-color: var(--cor-cyber);
+}
+
+.titulo-page{
+    font-family: "Russo One", sans-serif;
+    font-size: 55px;
+    background-color: var(--cor-fundo);
+    color: var(--cor-cyber);    
+    padding: 3rem;
+    text-align: center;
+    size: 15%;
+}
+
+
+.conteudo-principal{
+    padding: 85px;
+    color: black;
+    display: flex;
+}
+
+
+.sobre-mim{
+    margin: auto;
+    padding-right: 50%;
+    display: flex;
+    flex-flow: column;
+    width: 95%;
+}
+
+.titulo-sobre-mim{
+    font-size: 175%; 
+}
+
+.botao-central{
+    padding-top: 15px;
+}
+
+.botao-cv{
+    padding-top: 15;
+    display: flex;
+    width: 50%;
+    padding: 15px;
+    opacity: 0.5;
+    text-decoration: none;
+    background-color: var(--cor-fundo);
+    color: var(--cor-cyber);
+    clip-path: polygon(10% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 48%);
+}
+
+.botao-cv:hover{
+    opacity: 1;
+    background-color: var(--cor-fundo);
+    transition: 600ms;
+}
+
+.imagem-portifolio{
+    height: 10;
+    width: 10;
+    clip-path: polygon(25% 0%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 23%);
+}
+  
+
+footer{
+    padding: 0 0 85px;
+    background-color: var(--cor-fundo);
+    color: var(--cor-cyber);
+}
+
+.titulo-contato{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.contatos{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.itens-contato{
+    padding-bottom: 8%;
+}
+
+.itens{
+    display: block;
+    text-align: center;
+    padding-right: 10%;
+}
